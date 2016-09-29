@@ -1,0 +1,373 @@
+#,groupe,natureDeLaDonnée,thématiquePrincipale,acronyme,opérateur,intitulé,commentaire,motsClefs,lien,disponibilitéDesDonnées,cgu,documentationTechnique,documentationMéthodologique,exempleDeRéutilisation,champGéographique,maille,niveauDeRestitution,format,nombreDeJeuxDeDonnées,millésimesProposés
+1,Données de contexte,Données de référence,Sol,CLC,MEEM/CGDD/SOES,Occupation des sols (CORINE Land Cover),"La base de données géographique CORINE Land Cover (CLC) est un inventaire biophysique de l’occupation des terres. Il est produit dans le cadre du programme européen d’observation de la terre Copernicus (39 États européens). Données de référence, CORINE Land Cover est issue de l'interprétation visuelle d'images satellitaires et est disponible pour les années suivantes : 1990, 2000, 2006 et 2012. Ces bases d'état sont accompagnées par les bases des changements 1990-2000, 2000-2006 et 2006-2012 (données sur les portions du territoire ayant changé d'occupation des sols). La métropole et les DOM sont concernés (pour la Guyane, uniquement la bande côtière).
+
+Documentation technique : http://www.statistiques.developpement-durable.gouv.fr/donnees-ligne/li/2496/0/corine-land-cover.html , colonne ""Documentation""
+
+Méthodologie : http://www.statistiques.developpement-durable.gouv.fr/donnees-ligne/li/2496/0/corine-land-cover.html , colonne ""Documentation""
+
+Conditions d’utilisation : http://www.statistiques.developpement-durable.gouv.fr/donnees-ligne/t/conditions-dutilisation.html?tx_ttnews%5Btt_news%5D=24273&cHash=1725b06e1e3dbfb140987b32fa59d5e0","SOeS, CLC, CORINE Land Cover, Europe, occupation des sols, sols, cartographie, SIG",http://www.statistiques.developpement-durable.gouv.fr/donnees-ligne/li/1825.html,oui,Licence ouverte,oui,oui,Atlas régional de l’occupation des sols (à paraître 4e trimestre 2016),France entière,Ponctuel,Détail,"WMS ; SHP (rubrique ""données géographiques""); XLS (rubrique ""données statistiques)""",6,"2000, 2006, 2012"
+2,Données principales,Données de référence,Inondation ; crue ; risques inondation,BDHI,Meem (DGPR ?),BDHI Base de données historiques sur les inondations,"La Base de Données Historiques sur les Inondations (BDHI) recense et décrit 
+les phénomènes de submersions dommageables d'origine fluviale, marine, 
+lacustre et autres, survenus sur le territoire français 
+(métropole et départements d'outre-mer) au cours des siècles passés et 
+jusqu'à aujourd'hui (de 1294 à 2014.
+La BDHI présente une sélection d'inondations
+ remarquables qui se sont produites sur le territoire. Elle intègre 
+progressivement les anciens évènements, ainsi que les nouveaux qui 
+surviennent.
+La BDHI est une base de données documentaire. Les 
+informations sont structurées autour de Fiches Document, de Notes 
+Inondation et de Fiches Synthèse.","Inondations
+Evènements historiques
+Crues
+Notes inondation",http://bdhi.fr/appli/web/welcome,oui,Licence ouverte (ouverture d'un compte BDHI),"Documentation
+FAQ
+Plaquettes d'information
+Notioce méthodologique
+Textes et décrets
+Gide méthodologique",oui,,France métropolitaine,Ponctuel,Détail,PDF,,1294 - 2014
+3,Données principales,Données de référence,Inondation ; crue ; risques inondation,OBS_HYDRO_TR,MEEM/DGPR/SRNH/SCHAPI,"Données Hauteur/Débit « temps-réel » sur 1650 stations.
+Vigicrues – mesures observées sur les stations hydrométriques sur le réseau surveillé par les services de l’État.",Mise à disposition des données « temps réel » des hauteurs et débits sur environ 1650 stations situées sur le réseau surveillé par les services de l’État.,"vigilance crue
+situation hydrologique
+tronçon hydrographique",https://www.data.gouv.fr/fr/datasets/hauteurs-deau-et-debits-des-cours-deau-observes-en-temps-reel-aux-stations-du-reseau-vigicrues/,,Licence ouverte,oui,oui,,France Métropole,,,"XML pour observation hydro
+WMS/WFS pour stations",,
+4,Données principales,Données de référence,Inondation ; crue ; risques inondation,OBS_HYDRO_HISTORIQUE,MEEM/DGPR/SRNH/SCHAPI,"Données de référence
+Banque HYDRO2
+compte A150160, mot de passe SCHAPI",Base historique Hauteur/Débit sur 3000 stations.,"vigilance crue
+situation hydrologique
+tronçon hydrographique",http://www.hydro.eaufrance.fr/,,Licence ouverte,oui,oui,,,,,,,
+5,Données principales,Données de référence,Inondation ; crue ; risques inondation,TRONCONS_VIGILANCE-CRUES,MEEM/DGPR/SRNH/SCHAPI,"Tronçons de cours d'eau Vigicrues, simplifiés avec niveau de vigilance crues","Tronçons de cours d'eau Vigicrues, simplifiés avec niveau de vigilance crues","vigilance crue
+situation hydrologique
+tronçon hydrographique",https://www.data.gouv.fr/fr/datasets/troncons-de-cours-deau-vigicrues-simplifies-avec-niveau-de-vigilance-crues/,,Licence ouverte,oui,,,,,,,,
+6,Données principales,Données de référence,Inondation ; crue ; risques inondation,REPERES-DE-CRUES,MEEM/DGPR/SRNH/SCHAPI,Base de données nationale collaborative des sites et repères de crues,"Base de données nationale, adossée à une plate-forme internet 
+collaborative, permettant :
+ • la consultation des informations par le grand public
+ • la contribution au recensement
+ • la gestion des données par les services experts
+- Repères physiques et historiques mais aussi marques d’inondation sous toutes leurs formes : laisses et marques temporaires, témoignages, photographies etc.
+- Tous phénomènes d’inondation : débordements de cours d’eau, 
+submersions marines, ruissellement, remontées de nappe, etc.
+Ouverture en cours avec une base remplie par plusieurs services régionaux","Inondations
+Evènements historiques
+Crues",http://www.reperesdecrues.developpement-durable.gouv.fr/,,,,,,,,,,,
+7,Données principales,Données de référence,Inondation ; crue ; risques inondation,Vigicrues,MEEM/DGPR/SRNH/SCHAPI,Vigicrues,"Bulletin national d'information (origine Shapi). 
+Tronçons de cours d'eau en vigilance crue : carte et bulletin national, informations locales.
+
+Uniquement en visualisation","vigilance crue
+situation hydrologique
+tronçon hydrographique",http://www.vigicrues.gouv.fr/,non,,non,non,,France métropolitaine,détail (par troçon hydrographique),détail,,,
+8,Données principales,Données de référence,Risques naturels ; risques technologiques,Gaspar,MEEM/DGPR,GASPAR (Gestion Assistée des Procédures Administratives relatives aux Risques naturels et technologiques),"La base Gaspar, mise à jour directement par les services instructeurs départementaux, réunit des informations sur les documents d'information préventive ou à portée réglementaire sur les risques naturels et technologiques (PPR, Catnat,…)","- PPRn - PPRi - PPRt
+- Communes à risque majeur
+- reconnaissance de l'état de catastrophes naturelles
+- Documents d'information préventive : TIM: dossier de Transmission d'Information au Maire (ex DCS et PAC)DICRIM: Document d'Information Communal des populations sur les Risques MajeursPCS: Plan Communal de SauvegardeAZI: Atlas des Zones Inondables",http://macommune.prim.net/gaspar/,oui,Licence ouverte,Uniquement liste des aléas et leurs codes recensés dans GASPAR.,non,Indicateurs dans l'outil de cartographie dynamique Geoïdd,"France entière (y compris DOM)
+C",ponctuel,détail,"MDB Access 2000
+ou texte par région",,1982-2016
+9,Données principales,Recherche,Risques naturels,BDMVT,BRGM,Géorisques - Mouvements de terrain,"Mise en place depuis 1981, la BDMVT permet le recueil, l'analyse et la restitution des informations de base nécessaires à la connaissance et à l'étude préalable des phénomènes dans leur ensemble.
+La base BDMvt mémorise de façon homogène, l'ensemble des informations disponibles en France, sur des situations récentes et sur des événements passés, et permet le porté à connaissance des phénomènes.","Base de données nationale mouvements de terrain : Glissement, chute, éboulement, effondrement, coulée, érosion",http://www.georisques.gouv.fr/dossiers/mouvements-de-terrain#/,oui ,Licence ouverte,oui,oui,Article site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/risques-naturels.html,"France entière (y compris DOM)
+C",ponctuel,détail,Excel,,"- anciennes bases
+- inventaires départementaux spécifiques réalisés depuis 2001"
+10,Données principales,Recherche,Sol,BDCAVITES,BRGM,Géorisques - Cavités souterraines,"La base BDCavité s'intègre dans la politique de prévention des risques naturels mise en place depuis 1981, en permettant le recueil, l'analyse et la restitution des informations de base nécessaires à la connaissance et à l'étude préalable des phénomènes liés à la présence de cavités. 
+La base BDCavité mémorise de façon homogène, l'ensemble des informations disponibles en France et contribue au porté à connaissance, qui relève du rôle de l'Etat en matière de prévention des risques.","Banque de données nationale des cavités souterraines abandonnées en France métropolitaine ""hors mines""",http://www.georisques.gouv.fr/dossiers/cavites-souterraines#/,oui ,Licence ouverte,oui,oui,Article sur site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/sous-sol.html,"France entière (y compris DOM)
+C",ponctuel,détail,Excel,,
+11,Données principales,Recherche,Risques naturels ; sol,BDARGILES,BRGM,"Géorisques - Retrait-gonflement d'argiles
+Zonage aléa retrait-gonflement des sols argileux","Ces cartes ont pour but de délimiter toutes les zones qui sont a priori sujettes au phénomène de retrait-gonflement et de hiérarchiser ces zones selon un degré d’aléa croissant. Les zones où l’aléa retrait-gonflement est qualifié de fort, sont celles où la probabilité de survenance d’un sinistre sera la plus élevée et où l’intensité des phénomènes attendus est la plus forte.","Aléa 
+retrait-gonflement 
+sols argileux
+argiles
+géologie
+probabilité
+sinistre",http://www.georisques.gouv.fr/dossiers/alea-retrait-gonflement-des-argiles#/,oui ,Licence ouverte,oui,oui,"Article site web du SoeS : 
+http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/risques-naturels.html
+http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/sous-sol.html","France entière (y compris DOM)
+C",ponctuel,détail,Excel,,
+12,Données principales,Données de référence,Risques naturels ; séismes,Planseisme,MEEM/DGPR,"Géorisques - Séïsmes
+Zonage sismique en vigueur","Prévention du risque sismique : risque, réglementation, zonage",Cartographie des zones d'aléa sismique,http://www.planseisme.fr/Zonage-sismique-de-la-France.html,oui,Licence ouverte,oui,oui,"Indicateur dans Geoïdd : 
+http://geoidd.developpement-durable.gouv.fr/geoclip_stats_o3/index.php?profil=FR#v=map1;i=ris_nat.seisme_alea;l=fr","France entière (y compris DOM)
+C",ponctuel,détail,"Mapinfo
+Excel",,zonage sismique entré en vigueur à compter du 1er mai 2011.
+13,Données principales,Recherche,Risques naturels ; séismes,SisFrance,"BRGM, EDF, IRSN / SisFrance",Histoire et caractéristiques des séismes ressentis en France,"6 000 séismes ressentis sur le Territoire français métropolitain ou sur ses proches 
+frontières depuis plus de mille ans :
+- 1 800 épicentres, parmi les mieux connus, d'intensité supérieure ou égale au 
+degré 4 sur l'échelle internationale des intensités macrosismiques,
+- 100 000 observations ou localités ayant plus ou moins fortement subi un séisme, 
+et l'intensité dans chacun de ces lieux,
+- 10 000 références bibliographiques témoignant de l'activité des tremblements 
+de terre au cours des temps.
+                          ","Séismes
+Choc
+épicentre 
+faux séismes 
+intensité épicentrale 
+intensité macrosismique 
+qualité de l'intensité épicentrale",http://www.sisfrance.net/,oui,Licence ouverte,oui,oui,Article site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/risques-naturels.html,"France entière (y compris DOM)
+C",ponctuel,détail,txt,"4 jeux de données :
+- France
+- Antilles
+- Réunion
+- Calédonie",De 858 à 2007 (métropole
+14,Données principales,Recherche,Risques naturels ; tsunamis,BDTSUNAMIS,BRGM,Histoire et caractéristiques des tsunamis observés en France et sur ses abords,"Cette base de données rassemble les caractéristiques des tsunamis ressentis sur le territoire français : date, heure, appellation, région, localités concernées et intensités correspondantes.
+La base de données correspond à un état des connaissances à un temps T modifiable par des mises à jour. Les données fournies n'ont pas de valeur contractuelle, et sont fondées sur l'avis d'experts du BRGM.
+      ","tsunami
+Choc
+épicentre 
+faux séismes 
+intensité épicentrale 
+intensité macrosismique 
+qualité de l'intensité épicentrale
+Echelle des tsunamis (Sieberg-Ambraseys)",http://tsunamis.brgm.fr/,oui : affichage serveur cartographique et tableau,Licence ouverte,oui,oui,Article site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/risques-naturels.html,"France entière (y compris DOM)
+C",ponctuel,détail,,1,De 1564 à 2009 
+15,Données connexes,Données de référence,Risques naturels ; tsunamis,Cenalt,MEEM/CEA/CNRS/INSU-SHOM,CENtre d’Alerte aux Tsunamis,"Le CENALT (CENtre d’Alerte aux Tsunamis) surveille les forts séismes et les tsunamis survenant en Méditerranée occidentale et dans l’Atlantique nord-est et alerte la sécurité civile en cas de risque de tsunami.
+Il liste au fur et à mesure de leur occurrence, les alertes liées aux événements tsunamigènes","Documentatrion planification ORSEC
+Description phénomène
+
+Uniquement consultable via google map",http://www.info-tsunami.fr/,non,,non,non,,France métropolitaine,ponctuel,détail,,,depuis l'an 79
+16,Données principales,"Recherche 
+et Science participative",Risques naturels ; séismes,BCSF,"Bureau Central Sismologique Français
+Unistra/CNRS","Cztalogue de la sismicité de la France métropolitaine
+Réseau National de Surveillance Sismique","Ce réseau coordonne, diffuse, archive les observations sismologiques de la France","stations vélocimétriques
+données macrosismiques
+carte de sismicité
+alarmes
+bulletins sismiques
+observatoires volcanologiques et sismologiques
+foyers
+séismes majeurs",http://www.franceseisme.fr/,oui,Licence ouverte,oui,oui,Article site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/risques-naturels.html,"France entière (y compris DOM)
+C",ponctuel,détail,txt,,1962-2009
+17,Données principales,Données de référence,Feux de forêt,Prométhée,DPFM,"Promethée, base de données officielle pour les incendies de forêts dans la zone méditerranéenne française","Dès 1973, l’État a décidé de se doter pour cette zone très sensible d’un outil permettant le recensement des feux de forêts au sein d’une base de données unique.
+Il s’agissait dès l’origine de disposer d’un outil statistique fiable permettant des comparaisons spatiales, temporelles et une meilleure connaissance des causes.
+Dans chaque département, ce sont les services qui concourent à la prévention et la lutte (SDIS, DDT(M), ONF, gendarmerie, police) qui alimentent la base de données.
+La base est renseignée en continu par les différents intervenants selon une périodicité variable en fonction des disponibilités et priorités de chacun. Le bilan définitif d’une année (chiffres consolidés) est arrêté au 31 janvier de l’année suivante.",Base de données officielle pour les incendies de forêts dans la zone méditerranéenne française,http://www.promethee.com/,oui,Licence ouverte,oui,oui,"Indicateur évolution des surfaces incendiées et du nombre de feuxde forêts
+http://www.statistiques.developpement-durable.gouv.fr/indicateurs-indices/f/2094/0/feux-forets.html","France : région Méditerranéenne
+C",ponctuel,détail,CSV,,1973-2014
+18,Données principales,Données de référence,Risques naturels,BD-RTM,ONF,Restauration des terrains de montagne pour lutter contre les risques naturels,"Informations sur plus de 30 000 événements, et plus de 19 000 ouvrages de protection contre les risques naturels (regroupés en 2400 dispositifs de protection)
+Les services RTM de l'ONF recueillent des informations sur des événements liés aux risques naturels sur 11 départements des Alpes et des Pyrénées. Des informations sont mises à disposition du public, via une base de données en ligne, comportant un accès cartographique pour une localisation géographique sommaire du ""site"" concerné par l'événement. La finalité de cette base est de porter à connaissance des événements ayant eu des impacts vis à vis d'enjeux humains (notion de ""risque""), ou des événements marquants intéressants à garder en mémoire eu égard à ces enjeux.       ","affaissement
+avalanche
+chute de blocs
+crue torrentielle
+glissement de terrain
+inondation
+ravinement
+tassement
+victimes
+dégâts",http://rtm-onf.ifn.fr/,oui,Licence ouverte,oui,oui,,France métropolitaine,ponctuel,détail,CSV,,1900-2016
+19,Données principales,Données de référence,Feux de forêt,Effis,Commission Européenne (JRC et DG ENV),Effis - European Fire Database : base de données européenne sur les feux de forêt,"The European Fire Database contains the forest fire information compiled by EU Member States and other European countries.
+The Regulation EEC No 804/94 (now expired) established a Community 
+system of information on forest fires for which a systematic collection 
+of a minimum set of data on each fire occurring, the so called “Common 
+Core”, had to be carried out by the Member States participating in the 
+system.
+Following the Forest Focus regulation (EC) No 2152/2003, concerning 
+monitoring of forests and environment interactions in the Community, the
+ forest fire common core data was continued to be recorded in order to 
+collect comparable information on forest fires at Community level.
+Since 2004 the forest fire data provided each year by individual EU 
+Member States and other European countries are checked, stored and 
+managed by JRC within EFFIS. At present the database contains fire data 
+from 21 countries: Bulgaria, Croatia, Cyprus, Czech, Estonia, Finland, 
+France, Germany, Greece, Hungary, Italy, Latvia, Lithuania, Poland, 
+Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, Turkey.
+The public access to the database currently allows the users to 
+retrieve general information such as maps of the number of fires for a 
+selected year and for the countries for which data are available. 
+Further analysis possibilities will be added in the near future.","nombre de feux de forêt /an, 
+surfaces brûlées /an, 
+surface moyenne des feux /an",http://forest.jrc.ec.europa.eu/effis/,oui,Licence ouverte,oui,oui,,France entière,,,"WMS
+CSV",,1980 à 2015
+20,Données principales,Recherche,Risques naturels ; éruption,OVPF-IPGP,OVPF-IPGP,Observatoire volcanologique du piton de la Fournaise,"L'OVPF a trois missions principales : la recherche sur le fonctionnement et l'évolution des volcans, la surveillance de l'activité du Piton de la Fournaise avec le suivi des éruptions et des coulées de laves, et la diffusion des connaissances. Le Piton de la Fournaise est l'un des volcans les plus actifs au monde avec une moyenne d’une phase éruptive tous les 9 mois. L’activité du Piton de la Fournaise est suivi 24h/24 par l’observatoire volcanologique par plusieurs réseaux de surveillance et de recherche. Si nous savons aujourd’hui prévoir les éruptions à long terme (plusieurs semaines), il est encore impossible de prédire la date et l’heure précises.","Debut éruption 
+Heure fin
+Localisation 
+Type
+Duree
+Volume
+Debit moyen 
+Altitude moyenne, minimum, maximum 
+Pente moyenne, minimum, maximum
+Longueur, Largeur
+Annee
+Photos",http://www.ipgp.fr/fr/ovpf/observatoire-volcanologique-piton-de-fournaise,oui,Licence ouverte,oui,oui,Article sur site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/sous-sol.html,La Réunion,ponctuel,détail,"XLS
+Shapefile",1 jeu de donnéees par coulée,1970-2010
+21,Données principales,Recherche,Risques naturels,Radon,IRSN,"Zonage de l'aléa : potentiel radon des formations géologiques par commune
+Connaître le potentiel radon de ma commune","Parmi les facteurs influençant les niveaux de concentrations mesurées dans les bâtiments, la teneur en uranium des terrains sous-jacents est l’un des plus déterminants. Elle détermine le potentiel radon des formations géologiques : sur une zone géographique donnée, plus le potentiel est important, plus la probabilité de présence de radon à des niveaux élevés dans les bâtiments est forte.La connaissance des caractéristiques des formations géologiques sur le territoire, et en particulier de leur concentration en uranium, rend ainsi possible l’établissement d’une cartographie des zones sur lesquelles la présence de radon à des concentrations élevées dans les bâtiments est la plus probable. ","potentiel radon
+formations géologiques",https://www.data.gouv.fr/fr/datasets/connaitre-le-potentiel-radon-de-ma-commune/,oui,Licence ouverte,oui,http://www.irsn.fr/FR/connaissances/Environnement/expertises-radioactivite-naturelle/radon/Pages/4-cartographie-potentiel-radon-commune.aspx#.V9gEFUbpx3h,Article sur site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/sous-sol.html,"France entière (y compris DOM)
+C",ponctuel,détail,CSV,,2014
+22,Données principales,Recherche,Risques naturels,"Classified european 
+landslide susceptibility",Commission Européenne (JRC),"Zonage aléa glissement de terrain et écoulements
+Landslides in Europe","Analyse spatiale, évaluation et cartographie du risque glissement de terrain","aléa
+glissements de terrain
+écoulements",http://esdac.jrc.ec.europa.eu/themes/landslides,"oui, remplissage d'un formulaire de demande d'accès aux données)",Licence ouverte,oui,oui,Article sur site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/sous-sol.html,France métropolitaine,ponctuel,détail,Shapefile,,2013
+23,Données principales,Recherche,Inondation ; crue ; risques inondation,Eider,MEEM/CGDD/SOES,Cartographie des zones inondables,"Base de données régionales et départementales sur l'environnement, l'énergie, le transport, le logement et la construction :
+thème ""risques naturles et technologiques""","zones inondables
+évolution des surfaces
+population
+logements",http://www.stats.environnement.developpement-durable.gouv.fr/Eider/tables.do,oui,Licence ouverte,oui,oui,,"France entière (y compris DOM)
+R
+D",maile,agrégé,CSV,,2013
+24,Données principales,Données de référence,Risques naturels ; climat,Exposition des populations aux risques climatiques,MEEM/CGDD/SOeS+ONERC,Exposition des populations aux risques climatiques : analyse,"Cet indicateur est conçu comme le croisement de la densité de population et du nombre de risques climatiques identifiés comme risques naturels : avalanches, cyclones ettempêtes,feux de forêt, inondations… Les risques considérés ici sont ceux qui sont susceptibles d’être directement ou indirectement influencés par le changement climatique.
+
+Exemple de croisement de données","risques climatiques
+comunes déclarées à risque 
+avalanches
+cyclones et tempêtes
+feux de forêt
+inondations",http://www.developpement-durable.gouv.fr/Exposition-des-populations-aux.html,non,,oui,oui,Article site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/risques-naturels.html,France métropolitaine,,,,,"2005, 2013, 2014"
+25,Données principales,Données de référence,Inondation ; crue ; risques inondation,EAIP inondation,ONRN,Exposition des populations et bâtiments aux risques d'inondations extrêmes par cours d'eau ,"Indicateurs représentant les enjeux (population, bâtiments) estimés dans l’Enveloppe Approchée des Inondations Potentielles (EAIP) par cours d’eau en 2006. Il fait partie de la vingtaine d’indicateurs retenus pour la réalisation de l’évaluation préliminaire des risques d’inondation (EPRI) nationale et par district hydrographique en 2011","EAIP
+EPRI
+Directive inondation
+inondation par cours d'eau
+population
+bâtiments",http://www.statistiques.developpement-durable.gouv.fr/cartographie/ar/cartographie-interactive-geoidd-france.html,oui,Licence ouverte,oui,oui,,"France entière (y compris DOM)
+C",ponctuel,détail,Excel,,2011
+26,Données principales,Données de référence,Inondation ; crue ; risques inondation,EAIP Submersion marine,ONRN,Exposition des populations et bâtiments aux risques d'inondations extrêmes par submersion marine ,"Indicateurs représentant les enjeux (population, bâtiments) estimés dans l’Enveloppe Approchée des Inondations Potentielles (EAIP) par cours d’eau en 2006. Il fait partie de la vingtaine d’indicateurs retenus pour la réalisation de l’évaluation préliminaire des risques d’inondation (EPRI) nationale et par district hydrographique en 2011","EAIP
+EPRI
+Directive inondation
+inondation par submersion marine
+population
+bâtiments",http://www.statistiques.developpement-durable.gouv.fr/cartographie/ar/cartographie-interactive-geoidd-france.html,oui,Licence ouverte,oui,oui,,"France entière (y compris DOM)
+C",ponctuel,détail,Excel,,2011
+27,Données principales,Données de référence,Inondation ; crue ; risques inondation,Remontées de nappes,BRGM,Zones sensibles aux remontées de nappes,Zones sensibles aux remontées de nappes,"Remontées de nappes,
+Débordements,
+Ruissellements,
+Inondations,
+Crues",http://www.inondationsnappes.fr/donnees.asp?DPT=,oui,Licence ouverte,oui,oui,,France métropolitaine,ponctuel,détail,"Shapefile
+MIF/MID",Un jeu de donnes par département,Date de mise à jour des données : 2011
+28,Données principales,Données de référence,Risques naturels,ONRN,"Meem, CCR, MRN
+
+Partenaires producteurs de données (opérateurs de service public, observatoires et collectivités,
+professionnels)","Indicateurs risques naturels : aléas, enjeux, sinistralité, prévention, acteurs et leurs projets
+
+L’Observatoire national des risques naturels","L'ONRN associe depuis 2012 l’Etat, via le ministère de l'Environnement, de l'Energie et de la Mer (Direction Générale de la Prévention des Risques), la Caisse Centrale de Réassurance (CCR) et la Mission des sociétés d'assurances pour la connaissance et la prévention des risques naturels (MRN). L’ONRN renforce le lien entre l’assurance et la prévention, en rassemblant les acteurs de la prévention autour des données et des indicateurs de réduction de la vulnérabilité des enjeux exposés aux risques naturels. 
+
+L’ONRN produit ces indicateurs cartographiques nationaux et territoriaux, fiables, homogènes, rassemblés et suivis dans la durée en s’appuyant sur un réseau de partenaires producteurs de données (opérateurs de service public, observatoires et collectivités, professionnels, etc.). L’observatoire diffuse ainsi sur son portail des séries relatives aux aléas naturels les plus prégnants, aux enjeux exposés, à la sinistralité, à la prévention et aux procédures et programmes publics de prévention.
+
+Par cette mise à disposition du public des informations relatives aux aléas et aux enjeux exposés aux risques naturels, l’ONRN vise à améliorer la culture du risque. Il capitalise également ces informations en alimentant un dispositif d'évaluation et de prospective au service de la prévention et de la gestion de crise. Enfin, il contribue au pilotage et à la gouvernance de la prévention des risques naturels en France.","- indicateurs : aléas, enjeux, sinistralité, prévention, acteurs et leurs projets
+- enjeux : populatin, bâtiements, habitations sans étage, entreprises
+- sinistralité : reconnaissance catnat, côuts moyens ou cumulés des sinistres, fréquence des sinistres, S/P, coût cumulé par habitant 
+- risques naturels : mouvements de terrain, cavités souterraines, inondations (cours d'eau, submersion marine, sécheresse, séismes, tempêtes neige et grêle,  
+- zonages prévention : EAIP, TRI, PPRI, PAPI-PSR, PPR argiles, AZI
+- acteurs et projets : portage actions PAPI",http://www.onrn.fr/site/rubriques/indicateurs.html,oui,Licence ouverte,oui,oui,"Réutilisation d'indicateurs dans l'Observatoire régional des risques Aquitaine
+https://www.pigma.org/public/visualiseur/sinistralite/","France entière (y compris DOM)
+C",ponctuel,détail,Excel,47 jeux de données,Différents selon les indicateurs
+29,Données principales,Données de référence,Risques naturels,EMDAT,Université Catholique de Louvain (Belgium),International Disaster Database ,"In 1988, the Centre for Research on the Epidemiology of Disasters (CRED) launched the Emergency Events Database (EM-DAT). EM-DAT was created with the initial support of the World Health Organisation (WHO) and the Belgian Government.
+The main objective of the database is to serve the purposes of humanitarian action at national and international levels. The initiative aims to rationalise decision making for disaster preparedness, as well as provide an objective base for vulnerability assessment and priority setting.
+EM-DAT contains essential core data on the occurrence and effects of over 22,000 mass disasters in the world from 1900 to the present day. The
+ database is compiled from various sources, including UN agencies, 
+non-governmental organisations, insurance companies, research institutes
+ and press agencies.","Indicateurs : 
+- Geophysique (séisme, tsunami, activité volcanique, mouvement de terrain)
+- Météorologique (tempêtes, températures extrêmes, brouillard)
+- Hydrologique (inondation, glissement de terrain, actin des vagues)
+- Climatologique (sécheresse, incendies, lacs glaciaires)",http://www.emdat.be/,oui,Licence ouverte,oui,oui,Article site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/risques-naturels.html,France entière,agrégat,agrégé,Excel,,1900-2015
+30,Données principales,Données de référence,Données assurantielles,E-risk,CCR,Informations sur l'exposition aux catastrophes naturelles (E-Risk) ,"Dans le cadre de son activité de réassureur, CCR collecte un très grand nombre de données sur les catastrophes naturelles en France. Erisk a pour objectif de restituer certaines de ces données à tous. 
+- des explications sur la manifestation physique des 
+principaux risques naturels couverts par le régime d'indemnisation des catastrophes naturelles en France,
+- des fiches synthétiques décrivant les principaux événements ayant impacté la France depuis 1990,
+- une carte interactive permettant de consulter des indicateurs assurantiels par département ainsi que les reconnaissances de l'état de 
+catastrophes naturelles par commune,des liens utiles qui vous guideront vers des informations relatives aux catastrophes naturelles et à l'assurance en France.","coûts
+fréquence moyenne des sinistres
+côut moyen des sinsitres
+S/P",https://www.ccr.fr/mes-services,"oui, visulaisation dans la carte interactive",Licence ouverte,oui,oui,Article site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/risques-naturels.html,France métropolitaine,ponctuel,détail,PDF par commune,,1995-2012
+31,Données principales,Données de référence,Risques technologiques,Aria,Meem/DGPR/SRT/Barpi,"Risques Natech
+Aria : Retour d'expérience sur accident technologique",40 000 résumés d'accidents technologiques en ligne dont 147 répertoriés au 12/09/2016 inhérents aux risques naturels,"accidents technologiques
+causes premières 
+phénomène météo
+précipitations
+foudre
+chaleur intense
+froid intense, verglas
+crue / inondation
+séisme",http://www.aria.developpement-durable.gouv.fr/,oui en consultation (export PDF),,oui,oui,,France entière (y compris DOM),ponctuel,détail,PDF,,1995-2016
+32,Données connexes,Données de référence,Risques naturels ; sol,Mesales,Gis Sol / Inra,Modèle d'Evaluation Spatiale de l'ALéa Erosion des Sols,Aléa d'érosion des sols annuel et par saison,aléa d'érosion des sols,http://www.gissol.fr/donnees/donnees-dalea-derosion-2844,oui,Licence ouverte,oui,oui,Article site web du SoeS : http://www.statistiques.developpement-durable.gouv.fr/lessentiel/s/sol-1.html,France métropolitaine,ponctuel,détail,Excel,,2000
+33,Données principales,Données de référence,Climat,,Météo-France,données publiques Météo France,,,https://donneespubliques.meteofrance.fr/,A,,,,,,,,,,
+34,Données de contexte,Données de référence,Géographie,,IGN,BD Carthage : réseau hydrographiques,Cartographie du réseau hydrographique. Accessible sur le site du Sandre,,http://www.sandre.eaufrance.fr/,A,,,,,,,,,,
+35,Données de contexte,Données de référence,Géographie,,BRGM,Cartes géologiques,,,http://infoterre.brgm.fr/cartes-geologiques,PA,,,,,,,,,,
+36,Données de contexte,Données de référence,Géographie,,IGN,Catalogue BD IGN,Catalogue des différentes base de données cartographiques de l'IGN,,http://professionnels.ign.fr/catalogue,PA,,,,,,,,,,
+37,Données de contexte,Données de référence,Géographie,,SHOM,Catalogue SHOM,,,http://data.shom.fr/,A,,,,,,,,,,
+38,Données de contexte,Données de référence,Géographie,,Gis Sol / INRA,"Inventaire, Gestion et Conservation des Sols (IGCS)",Cartographie et description des caractéristiques pédologiques des sols selon pluseiurs échelles,,http://www.gissol.fr/le-gis/programmes/inventaire-gestion-et-conservation-des-sols-igcs-67,PA,,,,,,,,,,
+39,Données principales,Données de référence,Feux de forêt,,"MAAF, MINT (IGN)",BDIFF,"Base de données officielles pour les incendies de forêts, France entière
+Granularité à ajuster après discussion avec MAAF",,http://www.promethee.com/,,,,,,,,,,,
+40,Données principales,Données de référence,Risques naturels,,"Direction départementale des territoires: Haute-Savoie, Lozère, Ariège, Aube, Lot-et-Garonne, Meurthe-et-Moselle, Saône-et-Loire, Cher, Gers, Haut-Rhin, Loiret, Val d'Oise, Somme, Bouches-du-Rhône, Landes, Pyrénées-Atlantiques",Plan de prévention des risques naturels ; Périmètre du plan de prévention des risques naturels ; Zone réglementée du plan de prévention des risques naturels ; etc.,,,https://www.data.gouv.fr/fr/,,,,,,"Haute-Savoie, Lozère, Ariège, Aube, Lot-et-Garonne, Meurthe-et-Moselle, Saône-et-Loire, Cher, Gers, Haut-Rhin, Loiret, Val d'Oise, Somme, Bouches-du-Rhône, Landes, Pyrénées-Atlantiques",,Commune,ZIP SHP JSON CSV,,
+41,Données principales,Données de référence,Risques naturels,,"Direction régionale de l'environnement, de l'aménagement et du logement de l'Aquitaine",Territoires à risque important d'inondation (TRI) ; Plan de prévention du risque mouvement de terrain ; Plan de prévention du risque avalanche ; Atlas des zones inondables ; etc.,,,https://www.data.gouv.fr/fr/,,,,,,Aquitaine,,Commune,ZIP SHP JSON CSV,,
+42,Données principales,Données de référence,Risques naturels,,"Direction régionale de l'environnement, de l'aménagement et du logement de Poitou-Charentes",Territoires à risque important d'inondation (TRI) ; Plan de prévention du risque mouvement de terrain ; Plan de prévention du risque avalanche ; Atlas des zones inondables ; etc.,,,https://www.data.gouv.fr/fr/,,,,,,Poitou-Charentes,,,SHP JSON CSV,,
+43,Données principales,Données de référence,Risques naturels,,"Direction régionale de l'environnement, de l'aménagement et du logement des Pays de la Loire",Plan de prévention des risques naturels ; Zonage sismique ; Aléas miniers,,,https://www.data.gouv.fr/fr/,,,,,,Pays de la Loire,,Région,SHP JSON CSV,,
+44,Données principales,Données de référence,Risques naturels,,"Direction régionale de l'environnement, de l'aménagement et du logement du Languedoc-Roussillon",Atlas des zones inondables ; Communes soumises au risque d'avalanche,,,https://www.data.gouv.fr/fr/,,,,,,Languedoc-Roussillon,,Région,ZIP SHP JSON CSV,,
+45,Données de contexte,Données de référence,Adresse,BAN,Etalab,Base Adresse Nationale (BAN),,,https://www.data.gouv.fr/fr/datasets/ban-base-adresse-nationale/,,,,,,France,,POI,CSV PDF API,,
+46,Données principales,Données de référence,Risques naturels,,GEORHONEALPES,Périmètre du plan de prévention des risques naturels ; Zonages réglementaires des plans de prévention des risques naturels ; Zones exposées à aléas du plan de prévention des risques d'inondation ; etc.,,,https://www.data.gouv.fr/fr/,,,,,,Rhône-Alpes,,Commune,SHP JSON CSV,,
+47,Données principales,Données de référence,Inondation ; crue ; risques inondation,,Institut d'aménagement et d'urbanisme d'Ile-de-France,Crues de référence,,,https://www.data.gouv.fr/fr/datasets/crues-de-references-ods/,,,,,,France,,,HTML CSV JSON,,
+48,Données principales,Données de référence,Inondation ; crue ; risques inondation,,Institut d'aménagement et d'urbanisme d'Ile-de-France,"Crues de type 1910-1995-1970, crues exceptionnelles",,,https://www.data.gouv.fr/fr/datasets/crues-de-type-1910-1995-1970-crues-exceptionnelles-ods/,,,,,,France,,,HTML CSV JSON,,
+49,Données de contexte,Données de référence,Climat,,Météo-France,Indices mensuels/saisonniers/annuels de précipitations et nombre de jours de précipitations issus du modèle Aladin-Climat,,,https://www.data.gouv.fr/fr/datasets/indices-saisonniers-de-precipitations-et-nombre-de-jours-de-precipitations-issus-du-modele-aladin-climat/,,,,,,France,,POI,TXT,,
+50,Données de contexte,Données de référence,Climat,,Météo-France,Indices mensuels/saisonniers/annuels d'anomalie de précipitations et nombre de jours de précipitations issus du modèle Aladin-Climat,,,https://www.data.gouv.fr/fr/datasets/?q=indices+d%27anomalie+de+pr%C3%A9cipitations+et+d%27anomalies+de+nombre+de+jours+de+pr%C3%A9cipitations+issus+du+mod%C3%A8le+Aladin-Climat&organization=534fff8ba3a7292c64a77ed4,,,,,,France,,POI,TXT,,
+51,Données de contexte,Données de référence,Climat,,Météo-France,Données du modèle atmosphérique global ARPEGE,,,https://www.data.gouv.fr/fr/datasets/donnees-du-modele-atmospherique-global-arpege/,,,,,,France,,,GRIB2,,
+52,Données de contexte,Données de référence,Climat,,Météo-France,Données du modèle atmosphérique AROME à aire limitée à haute résolution,,,https://www.data.gouv.fr/fr/datasets/donnees-du-modele-atmospherique-arome-a-aire-limitee-a-haute-resolution/,,,,,,France,,,,,
+53,Données de contexte,Données de référence,Climat,,Météo-France,Données historiques des cartes et bulletins de Vigilance,,,https://www.data.gouv.fr/fr/datasets/donnees-historiques-des-cartes-et-bulletins-de-vigilance-1/,,,,,,France,,Département,XML GIF,,
+54,Données de contexte,Données de référence,Climat,,Météo-France,Données d'observations du réseau nivo-météorologique,,,https://www.data.gouv.fr/fr/datasets/donnees-dobservations-du-reseau-nivo-meteorologique/,,,,,,France,,,ASCII,,
+55,Données de contexte,Données de référence,Climat,,Météo-France,Données d'observation des principales stations météorologiques,,,https://www.data.gouv.fr/fr/datasets/donnees-d-observation-des-principales-stations-meteorologiques/,,,,,,France,,,POI,,
+58,Données principales,Données de référence,,,MEEM,Piézomètrie France entière (ADES),,,https://www.data.gouv.fr/fr/datasets/piezometrie-france-entiere-ades-30382022/,,,,,,France,,,XLS,,
+59,Données connexes,Données de référence,,,MEEM,Registre Français des émissions polluantes,,,https://www.data.gouv.fr/fr/datasets/registre-francais-des-emissions-polluantes/,,,,,,France,,,CSV,,
+60,Données connexes,Données de référence,,,MEEM,Produits Biocides,,,https://www.data.gouv.fr/fr/datasets/produits-biocides-30381961/,,,,,,France,,,CSV,,
+61,Données de contexte,Données de référence,Sol,,MEEM,Qualité des eaux souterraines France entière (ADES),,,https://www.data.gouv.fr/fr/datasets/qualite-des-eaux-souterraines-france-entiere-ades-30381938/,,,,,,France,,,CSV,,
+62,Données de contexte,Données de référence,,,MEEM,Assainissement collectif,,,https://www.data.gouv.fr/fr/datasets/assainissement-collectif-30381843/,,,,,,France,,,ODS,,
+63,Données de contexte,Données de référence,,,MEEM,Plan strategique des IIC,,,https://www.data.gouv.fr/fr/datasets/plan-strategique-des-iic-30381885/,,,,,,France,,,CSV,,
+64,Données principales,Données de référence,Inondation ; crue ; risques inondation,,ONEMA,Services de prévision des crue,,,https://www.data.gouv.fr/fr/datasets/services-de-prevision-des-crues-onm/,,,,,,France,,,ESRI,,
+65,Données de contexte,Données de référence,,,ONEMA,BD Carthage,,,https://www.data.gouv.fr/fr/datasets/bd-carthage-onm/,,,,,,France,,,ESRI,,
+66,Données de contexte,Données de référence,,,ONEMA,BD Carthage Métropole / Guadeloupe / Guyane / Réunion,,,https://www.data.gouv.fr/fr/datasets/?sort=-created&organization=534fff9ba3a7292c64a78036&q=BD+Carthage,,,,,,France,,,ESRI,,
+67,Données de contexte,Science participative,Adresse,,OpenStreetMap,Base Adresse Nationale Ouverte (BANO),,,https://www.data.gouv.fr/fr/datasets/base-d-adresses-nationale-ouverte-bano/,,,,,,France,,POI,CSV,,
+68,Données de contexte,Science participative,Géographie,,OpenStreetMap,Données OpenStreetMap intégrales de France métropolitaine,,,https://www.data.gouv.fr/fr/datasets/donnees-openstreetmap-integrales-de-france-metropolitaine/,,,,,,France,,POI,PBF XML,,
+69,Données de contexte,Science participative,Géographie,,OpenStreetMap,Limites administratives françaises issues d'OpenStreetMap,,,https://www.data.gouv.fr/fr/datasets/limites-administratives-francaises-issues-d-openstreetmap/,,,,,,France,,Commune,SHP,,
+70,Données de contexte,Science participative,Géographie,,OpenStreetMap,Contours des régions françaises sur OpenStreetMap,,,https://www.data.gouv.fr/fr/datasets/contours-des-regions-francaises-sur-openstreetmap/,,,,,,France,,Région,SHP,,
+71,Données de contexte,Science participative,Géographie,,OpenStreetMap,Contours des départements français issus d'OpenStreetMap,,,https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-issus-d-openstreetmap/,,,,,,France,,Département,SHP,,
+72,Données de contexte,Science participative,Géographie,,OpenStreetMap,Découpage des régions françaises issu d'OpenStreetMap,,,https://www.data.gouv.fr/fr/datasets/decoupage-des-regions-francaises-issu-d-openstreetmap/,,,,,,France,,Région,SHP,,
+73,Données de contexte,Science participative,Transport,,OpenStreetMap,"Stations et gares de métro, RER, tramway de la région Ile-de-France",,,https://www.data.gouv.fr/fr/datasets/stations-et-gares-de-metro-rer-et-tramway-de-la-region-ile-de-france/,,,,,,France,,POI,JSON XML,,
+74,Données de contexte,Science participative,Transport,,OpenStreetMap,Réseau autoroutier métropolitain issu d'OpenStreetMap,,,https://www.data.gouv.fr/fr/datasets/reseau-autoroutier-metropolitain-issu-d-openstreetmap/,,,,,,France,,POI,JSON XML,,
+75,Données de contexte,Science participative,Infrastructure,,OpenStreetMap,Réseau électrique issu d'OpenStreetMap,,,https://www.data.gouv.fr/fr/datasets/reseau-electrique-issu-d-openstreetmap/,,,,,,France,,POI,JSON XML,,
+76,Données de contexte,Science participative,Géographie,,OpenStreetMap,Carte des régions et départements issus d'OpenStreetMap,,,https://www.data.gouv.fr/fr/datasets/cartes-des-regions-et-departements-issus-d-openstreetmap/,,,,,,France,,POI,SVG,,
+77,Données de contexte,Science participative,Géographie,,OpenStreetMap,Découpage administratif communal français issu d'OpenStreetMap,,,https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/,,,,,,France,,Commune,SHP,,
+78,Données de contexte,Science participative,Géographie,,OpenStreetMap,Communes nouvelles au 1er janvier 2016,,,https://www.data.gouv.fr/fr/datasets/communes-nouvelles-au-1er-janvier-2016/,,,,,,France,,Commune,SHP CSV,,
+79,Données principales,Données de référence,Géographie,,Service central d'hydrométéorologie et d'appui à la prévision des inondations,"Tronçons des cours d'eau Vigicrues, simplifiés avec niveau de vigilance crues",,,https://www.data.gouv.fr/fr/datasets/troncons-de-cours-deau-vigicrues-simplifies-avec-niveau-de-vigilance-crues-2/,,,,,,France,,,GEOJSON,,
+80,Données principales,Données de référence,Inondation ; crue ; risques inondation,,Système d'information sur l'eau (SIE),Tronçons de vigilance crues,,,https://www.data.gouv.fr/fr/datasets/troncons-de-vigilance-crues-onm/,,,,,,France,,,CSV SHP JSON ZIP,,
+82,Données de contexte,Données de référence,Logement ; bâtiment,,MEEM/CGDD/SOES,"Permis de construire (PC), permis d’aménager (PA) et déclaration préalable (DP) (""Sit@del2"")",,,http://www.data.gouv.fr/fr/datasets/permis-de-construire-pc-permis-d-amenager-pa-et-declaration-prealable-dp-sit-del2/,,,,,,France,,Commune,CSV,,
+83,Données de contexte,Données de référence,Risques technologiques,S3IC,MEEM/DGPR,Liste des installations classées - Service,,,http://georisques.gouv.fr/services?,Oui,Licence ouverte,,,,France,,"X,Y",Service WMS et WFS,,a jour
+84,Données de contexte,Données de référence,Risques technologiques,S3IC,MEEM/DGPR,Liste des installations classées,,,http://www.georisques.gouv.fr/cartes-aux-risques/donnees-industrielles,Oui,Licence ouverte,,,,,,,,,
+85,Données principales,Données de référence,Inondation ; crue ; risques inondation,TRI,MEEM/DGPR,Territoire a risques d'inondations - Service ,,,http://georisques.gouv.fr/services?,Oui,Licence ouverte,,,,,,,Service WMS et WFS,50,2013
+86,Données principales,Données de référence,Inondation ; crue ; risques inondation,TRI,MEEM/DGPR,Territoire a risques d'inondations ,Données disponibles par région,,http://www.georisques.gouv.fr/cartes-aux-risques/territoires-risques-dinondation-tri-0,Oui,Licence ouverte,,,,,,,Fichiers shape,50,2013
+87,Données de contexte,Données de référence,Pollution,,MEEM/DGPR,"Liste des établissements avec émissions polluantes (eau, air, sol) - Service",,,http://georisques.gouv.fr/services?,Oui,Licence ouverte,,,,,,,Service WMS et WFS,,
+88,Données de contexte,Données de référence,Pollution,,MEEM/DGPR,"Liste et données sur les établissements avec émissions polluantes (eau, air, sol)",,,http://www.georisques.gouv.fr/dossiers/irep/telechargement,Oui,,,,,,,,,,
+89,Données de contexte,Données de référence,Pollution,BASOL,MEEM/DGPR,"Liste des établissements sur les sites et sols pollués ou potentiellement pollués
+appelant une action des pouvoirs publics,
+à titre préventif ou curatif. - Service",,,http://georisques.gouv.fr/services?,Oui,Licence ouverte,,,,,,,Service WMS et WFS,,
+90,Données principales,Données de référence,Risques naturels,GASPAR,MEEM/DGPR,Commune présentant un PPRN ou PPRT - Service,,,http://georisques.gouv.fr/services?,Oui,Licence ouverte,,,,,,,Service WMS et WFS,,
+91,Données principales,Données de référence,Inondation ; crue ; risques inondation,AZI,MEEM/DGPR,Atlas des Zones Inondables,Données disponibles par région. ,DDT,http://www.georisques.gouv.fr/acces-aux-donnees-des-zones-inondables-azi,Oui,Licence ouverte,,,,,,,Service WMS et WFS,,
+92,Données principales,Données de référence,Risques naturels,PPR,MEEM/DGPR,Plan de Prévention des Risques par région,Données disponibles par région. ,DDT,http://www.georisques.gouv.fr/acces-aux-donnees-ppr,Oui,Licence ouverte,,,,,,,Fichiers shape,,
+93,Données principales,Données de référence,Risques technologiques,BASIAS,BRGM,Données des anciens sites industriels et activités de service (BASIAS),http://www.geocatalogue.fr/Detail.do?id=2596,BRGM,http://www.georisques.gouv.fr/dossiers/basias/donnees#/,,,,,,,,,,,
+94,Données principales,Données de référence,Inondation ; crue ; risques inondation,,BRGM,Inondations et remontées de nappe - services,http://www.geocatalogue.fr/Detail.do?fileIdentifier=8d0802f0-a33c-11dc-aae9-0050568151b7,BRGM,http://geoservices.brgm.fr/risques,http://infoterre.brgm.fr/geoservices-ogc,,,,,,,,Service WMS et WFS,,
+95,Données de contexte,Données de référence,Inondation ; crue ; risques inondation,ADES,ONEMA+BRGM,Données sur la qualité des eaux souterraines,,,http://www.ades.eaufrance.fr,licence ouverte,,,,,,,,,,
+96,Données de contexte,Données de référence,Inondation ; crue ; risques inondation,ADES,ONEMA+BRGM,Données sur les niveaux d'eaux souterraines,,,http://www.ades.eaufrance.fr,licence ouverte,,,,,,,,,,
+97,Données de contexte,Données de référence,Enjeu,BNPE,ONEMA+BRGM,Données sur les prélèvements en eau,,,http://www.bnpe.eaufrance.fr/acces-donnees/journal-donnees-diffusees,licence ouverte,,,,,,,,,,
+98,Données de contexte,Données de référence,Enjeu,BD CHARM,BRGM,Données sur la description géologique,Données disponibles sur un secteur ,,http://www.brgm.fr/decouverte/ouvrages-cartes-brgm-editions/cartes-geologiques-numeriques,,,,,,,,,,,
+99,Données principales,Science participative,Inondation ; crue ; risques inondation,,BRGM,Inondations françaises du printemps 2016,"Données captées sur l'api twitter par mots-clés en relation avec le champ lexical des inondations
+- Période : du 20 mai au 15 juin
+- Volume de données : 110.000 Tweets
+- Langue des messages : française","BRGM, innondations, twitter",,Modalité à définir,Utilisation restreinte aux participants du hackathon,"Champs disponibles: 
+- Nom utilisateur
+-Nb. followers
+-Date + heure du message
+-Type de client web
+-Langue
+-URL du message
+-Message
+-Pays
+-Coordonnées GPS si géolocalisation active par l’utilisateur (lat./long.)",,,France,,,CSV,1,
+100,Données principales,Science participative,Risques naturels ; séismes,,BRGM,Séisme d’Amatrice (Italie) du 24 août 2016,"Données captées sur l'api twitter avec critères de sélection : mot-clé « terremoto » (« séisme » en italien)
+- Période : 24 août 0h au 25 août minuit (48 1ères heures après le séisme)
+- Volume de données : 179.000 Tweets
+- Langue des messages : italienne","BRGM, seisme, twitter",,Modalité à définir,Utilisation restreinte aux participants du hackathon,"Champs disponibles: 
+- Nom utilisateur
+-Nb. followers
+-Date + heure du message
+-Type de client web
+-Langue
+-URL du message
+-Message
+-Pays
+-Coordonnées GPS si géolocalisation active par l’utilisateur (lat./long.)",,Détection du séisme par examen de l'évolution du nb. de Tweets échangés au cours du temps,Italie,,,CSV,1,
+101,Données de contexte,Données de référence,Population,RP,Insee,Population carroyée ,"8 variables sur la structure par âge des individus, les caractéristiques des ménages (locataire/propriétaire, etc.) et les revenus au 31 décembre 2010.
+Afin de respecter la règle de diffusion des données sur les revenus fiscaux des ménages, aucune information statistique (à l'exception du nombre total d'individus) n'est diffusée sur des carreaux de moins de 11 ménages. Ces carreaux de faibles effectifs sont donc regroupés en rectangles de taille plus importante et satisfaisant à cette règle des 11 ménages minimum.","BRGM, seisme, twitter",http://www.insee.fr/fr/themes/detail.asp?reg_id=0&ref_id=donnees-carroyees&page=donnees-detaillees/donnees-carroyees/donnees-carroyees-200m.htm,oui,Licence ouverte,oui,,,France,à 200m,à 200m,DBF,,2010
