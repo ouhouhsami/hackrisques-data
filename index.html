@@ -18,7 +18,7 @@
 
       <div class="sidebar col-md-3">
         <div>
-          <h4 class='col-md-6'>Jeux de données (<span id="total_movies">0</span>)</h4>
+          <h4>Jeux de données (<span id="total_movies">0</span>)</h4>
         </div>
 
         <div>
@@ -41,44 +41,59 @@
 <div class="col-md-12">
     <div class="thumbnail">
       <div class="caption">
-        <h4><b><%= acronyme %></b> <small><%= intitulé %></small></h4>
+        <h4><a target="_blank" class="label label-success" href="<%= lien %>"> <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Télécharger</a> <b><%= acronyme %></b> <small><%= intitulé %></small> </h4>
+        <table class="table table-condensed">
+        <tr>
+          <th>Nature de la donnée</th>
+          <td><%= natureDeLaDonnée %></td>
+          <th>Groupe</th>
+          <td><%= groupe %></td>
+        </tr>
+
+        <tr>
+            <th>Thématique principale</th>
+            <td><%= thématiquePrincipale %></td>
+            <th>Opérateur</th>
+            <td><%= opérateur %></td>
+        </tr>
+        <tr>
+            <th>MotsClefs</th>
+            <td><%= motsClefs %></td>
+            <th>Millésimes Proposés</th>
+            <td><%= millésimesProposés %></td>
+        </tr>
+        <tr>
+            <th>Disponibilité Des Données</th>
+            <td><%= disponibilitéDesDonnées %></td>
+            <th>CGU</th>
+            <td><%= cgu %></td>
+        </tr>
+        <tr>
+            <th>Documentation Technique</th>
+            <td><%= documentationTechnique %></td>
+            <th>Documentation Méthodologique</th>
+            <td><%= documentationMéthodologique %></td>
+        </tr>
+        <tr>
+            <th>Exemple De Réutilisation</th>
+            <td><%= exempleDeRéutilisation %></td>
+            <th>Champ Géographique</th>
+            <td><%= champGéographique %></td>
+        </tr>
+        <tr>
+            <th>Maille</th>
+            <td><%= maille %></td>
+            <th>Niveau De Restitution</th>
+            <td><%= niveauDeRestitution %></td>
+        </tr>
+        <tr>
+            <th>Format</th>
+            <td><%= format %></td>
+            <th>Nombre De Jeux De Données</th>
+            <td><%= nombreDeJeuxDeDonnées %></td>
+        </tr>
+        </table>
         <div class="detail">
-          <dl>
-            <dt>Nature de la donnée</dt>
-            <dd><%= natureDeLaDonnée %></dd>
-            <dt>Groupe</dt>
-            <dd><%= groupe %></dd>
-            <dt>Thématique principale</dt>
-            <dd><%= thématiquePrincipale %></dd>
-            <dt>Opérateur</dt>
-            <dd><%= opérateur %></dd>
-            <dt>MotsClefs</dt>
-            <dd><%= motsClefs %></dd>
-            <dt>Lien</dt>
-            <dd><a target="_blank" href="<%= lien %>"><%= lien %></a></dd>
-            <dt>Disponibilité Des Données</dt>
-            <dd><%= disponibilitéDesDonnées %></dd>
-            <dt>CGU</dt>
-            <dd><%= cgu %></dd>
-            <dt>Documentation Technique</dt>
-            <dd><%= documentationTechnique %></dd>
-            <dt>Documentation Méthodologique</dt>
-            <dd><%= documentationMéthodologique %></dd>
-            <dt>Exemple De Réutilisation</dt>
-            <dd><%= exempleDeRéutilisation %></dd>
-            <dt>Champ Géographique</dt>
-            <dd><%= champGéographique %></dd>
-            <dt>Maille</dt>
-            <dd><%= maille %></dd>
-            <dt>Niveau De Restitution</dt>
-            <dd><%= niveauDeRestitution %></dd>
-            <dt>Format</dt>
-            <dd><%= format %></dd>
-            <dt>Nombre De Jeux De Données</dt>
-            <dd><%= nombreDeJeuxDeDonnées %></dd>
-            <dt>Millésimes Proposés</dt>
-            <dd><%= millésimesProposés %></dd>
-          </dl>
           <%= commentaire %>
         </div>
       </div>
