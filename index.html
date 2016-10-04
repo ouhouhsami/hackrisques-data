@@ -18,7 +18,7 @@
 
       <div class="sidebar col-md-3">
         <div>
-          <h4>Jeux de données (<span id="total_movies">0</span>)</h4>
+          <h4>Jeux de données <span id="total_movies" class="label label-info">0</span></h4>
         </div>
 
         <div>
@@ -41,7 +41,8 @@
 <div class="col-md-12">
     <div class="thumbnail">
       <div class="caption">
-        <h4><a target="_blank" class="label label-success" href="<%= lien %>"> <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Télécharger</a> <b><%= acronyme %></b> <small><%= intitulé %></small> </h4>
+        <h4> <b><%= acronyme %></b> / <%= intitulé %>
+        <a target="_blank" class="label label-success" href="<%= lien %>"> <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Télécharger</a> </h4>
         <table class="table table-condensed">
         <tr>
           <th>Nature de la donnée</th>
@@ -57,39 +58,39 @@
             <td><%= opérateur %></td>
         </tr>
         <tr>
-            <th>MotsClefs</th>
+            <th>Mots clefs</th>
             <td><%= motsClefs %></td>
-            <th>Millésimes Proposés</th>
+            <th>Millésimes proposés</th>
             <td><%= millésimesProposés %></td>
         </tr>
         <tr>
-            <th>Disponibilité Des Données</th>
+            <th>Disponibilité des données</th>
             <td><%= disponibilitéDesDonnées %></td>
             <th>CGU</th>
             <td><%= cgu %></td>
         </tr>
         <tr>
-            <th>Documentation Technique</th>
+            <th>Documentation technique</th>
             <td><%= documentationTechnique %></td>
-            <th>Documentation Méthodologique</th>
+            <th>Documentation méthodologique</th>
             <td><%= documentationMéthodologique %></td>
         </tr>
         <tr>
-            <th>Exemple De Réutilisation</th>
+            <th>Exemple de réutilisation</th>
             <td><%= exempleDeRéutilisation %></td>
-            <th>Champ Géographique</th>
+            <th>Champ géographique</th>
             <td><%= champGéographique %></td>
         </tr>
         <tr>
             <th>Maille</th>
             <td><%= maille %></td>
-            <th>Niveau De Restitution</th>
+            <th>Niveau de restitution</th>
             <td><%= niveauDeRestitution %></td>
         </tr>
         <tr>
             <th>Format</th>
             <td><%= format %></td>
-            <th>Nombre De Jeux De Données</th>
+            <th>Nombre de jeux de données</th>
             <td><%= nombreDeJeuxDeDonnées %></td>
         </tr>
         </table>
@@ -122,6 +123,22 @@
   </div>
 </div>
 {{/groupe}}
+</fieldset>
+</div>
+
+<div class="well">
+<fieldset id="cgu_criteria">
+<legend>CGU</legend>
+{{#cgu}}
+<div id="cgu">
+  <div class="checkbox" fjs-criteria="field=cgu,ele=#cgus input:checkbox">
+    <label>
+      <input type="checkbox" value="{{.}}">
+      <span>{{.}}</span>
+    </label>
+  </div>
+</div>
+{{/cgu}}
 </fieldset>
 </div>
 

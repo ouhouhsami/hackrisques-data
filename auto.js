@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var filteringData = {'groupe': [], 'natureDeLaDonnée': [], 'champGéographique': [], 'maille': [], 'niveauDeRestitution': []}
+  var filteringData = {'groupe': [], 'natureDeLaDonnée': [], 'champGéographique': [], 'maille': [], 'niveauDeRestitution': [], 'cgu': []}
 
   filteringDataKeys = Object.keys( filteringData );
 
@@ -33,6 +33,7 @@ $(document).ready(function(){
   });
 
   FJS.addCriteria({field: 'groupe', ele: '#groupe_criteria input:checkbox'});
+  FJS.addCriteria({field: 'cgu', ele: '#cgu_criteria input:checkbox'});
   FJS.addCriteria({field: 'natureDeLaDonnée', ele: '#natureDeLaDonnée_criteria input:checkbox'});
   FJS.addCriteria({field: 'champGéographique', ele: '#champGéographique_criteria input:checkbox'});
   FJS.addCriteria({field: 'maille', ele: '#maille_criteria input:checkbox'});
