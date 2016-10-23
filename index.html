@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8">
     <link href="assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
@@ -18,15 +18,15 @@
       <hr>
       <div class="sidebar col-md-3">
         <div>
-          <h4>Jeux de données <span id="total_movies" class="label label-info">0</span></h4>
+          <h4>Jeux de données <span id="mydata_count" class="label label-info">0</span></h4>
         </div>
         <div>
           <label class="sr-only" for="searchbox">Search</label>
-          <input type="text" class="form-control" id="searchbox" placeholder="Search &hellip;" fjs-search>
+          <input type="text" class="form-control" id="searchbox" placeholder="Chercher &hellip;" fjs-search>
           <span class="glyphicon glyphicon-search search-icon"></span>
         </div>
         <br>
-        <div id="target">Loading...</div>
+        <div id="target">Chargement...</div>
 
       </div>
       <div class="col-md-9">
@@ -40,8 +40,8 @@
 <div class="col-md-12">
     <div class="thumbnail">
       <div class="caption">
-        <h4> <b><%= acronyme %></b> / <%= intitulé %>
-        <a target="_blank" class="label label-success" href="<%= lien %>"> <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Télécharger</a> </h4>
+        <h4><b><%= acronyme %>/ <%= intitulé %></b> 
+        <div class="right"><a target="_blank" class="label label-success" href="<%= lien %>"> <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Télécharger</a></div></h4>
         <div class="table-responsive">
         <table class="table table-condensed">
         <tr>

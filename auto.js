@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-  var filteringData = {'groupe': [], 'natureDeLaDonnée': [], 'champGéographique': [], 'maille': [], 'niveauDeRestitution': [], 'cgu': []}
+  var filteringData = {'Perimetre': [], 'Nature': [], 'DisponibilitéDonnées': [], 'ChampGéographique': [], 'Maille': [], 'NiveauRestitution': [], 'CGU': []}
 
   filteringDataKeys = Object.keys( filteringData );
 
 
-  $.each(movies, function (key, data) {
+  $.each(mydata, function (key, data) {
       $.each(filteringDataKeys, function(item, key){
         filteringData[key].push(data[key])
       })
@@ -26,18 +26,19 @@ $(document).ready(function(){
 
   initSliders();
 
-  var FJS = FilterJS.auto(movies)
+  var FJS = FilterJS.auto(mydata)
 
   FJS.addCallback('afterFilter', function(result){
-    $('#total_movies').text(result.length);
+    $('#mydata_count').text(result.length);
   });
 
-  FJS.addCriteria({field: 'groupe', ele: '#groupe_criteria input:checkbox'});
-  FJS.addCriteria({field: 'cgu', ele: '#cgu_criteria input:checkbox'});
-  FJS.addCriteria({field: 'natureDeLaDonnée', ele: '#natureDeLaDonnée_criteria input:checkbox'});
-  FJS.addCriteria({field: 'champGéographique', ele: '#champGéographique_criteria input:checkbox'});
-  FJS.addCriteria({field: 'maille', ele: '#maille_criteria input:checkbox'});
-  FJS.addCriteria({field: 'niveauDeRestitution', ele: '#niveauDeRestitution_criteria input:checkbox'});
+  FJS.addCriteria({field: 'Perimetre', ele: '#groupe_criteria input:checkbox'});
+  FJS.addCriteria({field: 'CGU', ele: '#cgu_criteria input:checkbox'});
+  FJS.addCriteria({field: 'Nature', ele: '#natureDeLaDonnée_criteria input:checkbox'});
+  FJS.addCriteria({field: 'DisponibilitéDonnées', ele: '#disponibilitéDesDonnées_criteria input:checkbox'});
+  FJS.addCriteria({field: 'ChampGéographique', ele: '#champGéographique_criteria input:checkbox'});
+  FJS.addCriteria({field: 'Maille', ele: '#maille_criteria input:checkbox'});
+  FJS.addCriteria({field: 'NiveauRestitution', ele: '#niveauDeRestitution_criteria input:checkbox'});
 
   FJS.filter();
 
@@ -69,4 +70,22 @@ function initSliders(){
     }
   });
 
+}
+
+function linkify(inputText) {
+    var replacedText, replacePattern1, replacePattern2, replacePattern3;
+
+    //URLs starting with http://, https://, or ftp://
+    replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+    replacedText = inputText.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
+
+    //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
+    replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+    replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+
+    //Change email addresses to mailto:: links.
+    replacePattern3 = /(([a-zA-Z0-9\-\_\.])+@[a-zA-Z\_]+?(\.[a-zA-Z]{2,6})+)/gim;
+    replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
+
+    return replacedText;
 }
