@@ -1,3 +1,6 @@
 # #HackRisques - Référentiel des jeux de données
 
 cvstojson to generate json from cvs.
+
+# TODO
+- Prise en charge des retours à la ligne dans les commentaires
