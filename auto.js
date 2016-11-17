@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var filteringData = {'Perimetre': [], 'Nature': [], 'DisponibilitéDonnées': [], 'ChampGéographique': [], 'Maille': [], 'NiveauRestitution': [], 'CGU': []}
+  var filteringData = {'Perimetre': [], 'Nature': [], 'DisponibilitéDonnées': [], 'ChampGéographique': [], 'CGU': []}
 
   filteringDataKeys = Object.keys( filteringData );
 
@@ -37,9 +37,6 @@ $(document).ready(function(){
   FJS.addCriteria({field: 'Nature', ele: '#natureDeLaDonnée_criteria input:checkbox'});
   FJS.addCriteria({field: 'DisponibilitéDonnées', ele: '#disponibilitéDesDonnées_criteria input:checkbox'});
   FJS.addCriteria({field: 'ChampGéographique', ele: '#champGéographique_criteria input:checkbox'});
-  FJS.addCriteria({field: 'Maille', ele: '#maille_criteria input:checkbox'});
-  FJS.addCriteria({field: 'NiveauRestitution', ele: '#niveauDeRestitution_criteria input:checkbox'});
-
   FJS.filter();
 
   window.FJS = FJS;
