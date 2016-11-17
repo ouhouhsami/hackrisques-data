@@ -216,35 +216,4 @@
     </fieldset>
   </div>
 
-  <div class="well">
-    <fieldset id="maille_criteria">
-      <legend>Maille</legend>
-      {{#Maille}}{{#.}}
-      <div id="maille">
-        <div class="checkbox" fjs-criteria="field=Maille,ele=#mailles input:checkbox">
-          <label>
-            <input type="checkbox" value="{{.}}">
-            <span>{{.}}</span>
-          </label>
-        </div>
-      </div>
-      {{/.}}{{/Maille}}
-    </fieldset>
-  </div>
-
-  <div class="well">
-    <fieldset id="niveauDeRestitution_criteria">
-      <legend>Niveau de restitution</legend>
-      {{#NiveauRestitution}}{{#.}}
-      <div id="NiveauRestitution">
-        <div class="checkbox" fjs-criteria="field=NiveauRestitution,ele=#niveauDeRestitutions input:checkbox">
-          <label>
-            <input type="checkbox" value="{{.}}">
-            <span>{{.}}</span>
-          </label>
-        </div>
-      </div>
-      {{/.}}{{/NiveauRestitution}}
-    </fieldset>
-  </div>
 </script>
